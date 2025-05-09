@@ -29,7 +29,7 @@ class Evangelism(Church):
 
 
             print(f"However, God only chose {left_people} more people")
-            evangelistic_hearts = lower(newMember * evanSprit) # holy spirit gives them hearts
+            evangelistic_hearts = lower(left_people * evanSprit) # holy spirit gives them hearts
             self.evMembers += evangelistic_hearts       # new ev team
         
         return total_member
